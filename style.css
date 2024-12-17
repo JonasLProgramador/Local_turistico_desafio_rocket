@@ -1,0 +1,70 @@
+    :root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --background-default: #f5f4f0;
+    --border-primary: #d9d9d9;
+    --text-primary: #1b1b1b;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #e1624f;
+    --accent-blue: #0c51a7;
+    --accent-orange: #e95e10;
+    --accent-pink: #e5245e;
+    --accent-purple: #591b98;
+    font-family: "Open-Sans", "san-serif";
+    line-height: 1.4;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    }
+    body {
+    background-color: var(--background-default);
+    }
+    h1 {
+    font-size: 2.25rem;
+    line-height: 0.3;
+    }
+
+    h2 {
+    font-size: 2rem;
+    line-height: 0.1;
+    }
+
+    h3 {
+    font-size: 1.75rem;
+    }
+    h1,h2,h3 {
+    color: var(--text-primary);
+    font-weight: bold;
+    
+    }
+    #container {
+    padding: 5rem 5rem 8.5625rem;
+    margin: 0 auto;
+    }
+    #travel {
+    padding-bottom: 2.5rem;
+    }
+
+    #travel img {
+    height: 41.25rem;
+    }
+    img {
+    border-radius: 8px;
+    width: 100%;
+    object-fit: cover;
+    }
+    #destination-storic {
+    padding-top: 40px;
+    border-top: 1px solid var(--border-primary);
+    }
+    .img-container img {
+    max-height: 21.875rem;
+    margin-top: 1.125rem;
+    }
+    .headline{
+        color: var(--text-headline);
+        font-weight: bold;
+        text-transform: uppercase;
+        ;
+    }
