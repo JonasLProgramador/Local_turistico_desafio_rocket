@@ -22,7 +22,7 @@
     }
     h1 {
     font-size: 2.25rem;
-    line-height: 0.3;
+    line-height: 0.1;
     }
 
     h2 {
@@ -51,7 +51,7 @@
         padding-top: 4rem;
     }
     #container {
-        padding: 5rem 5rem 8.5625rem;
+        padding: 2rem 5rem 8.5625rem;
         margin: 0 auto;
     }
     #travel {
